@@ -1,0 +1,42 @@
+.Bienvenido{
+    display:flex;
+    margin-top: 2vh;
+    margin-left: 20vh;
+    width: auto;
+    height: auto;
+}
+
+.formulario{
+    display:flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    margin-top: 5vh;
+    margin-left: 20vh;
+    width: auto;
+    height: auto;
+}
+
+.respuestaOrden{
+    display:flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    margin-top: 5vh;
+    margin-left: 20vh;
+    width: auto;
+    height: auto;
+}
+
+.orden{
+    text-decoration: none;
+    color:black;
+    text-align: center;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    width: 250px;
+    margin-top: 2vh;
+
+    &:hover{
+        color:rgb(48, 134, 55);
+        background-color: rgba(105, 105, 105, 0.582);
+    }
+}

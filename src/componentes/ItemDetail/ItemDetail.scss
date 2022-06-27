@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: inherit;
+    box-sizing: border-box;
+    list-style:none;
+    text-decoration: none;
+    
+}
+
+img, video {
+    max-width: 100%;
+    height: auto;
+}
+
+.wrapperDetail{
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: top;
+    height: 60%;
+    width: 100%; 
+    align-content: top;
+}
+
+.main{
+    background-color: rgba(219, 219, 219, 0.568);
+    height: 100%;
+}
+
+.cardDetail{
+    display:flex;
+    flex-direction: row;
+    align-items: top;
+    width: 100rem;
+    max-width: 600px;
+    box-shadow: grey 0px 4px 12px;
+    flex-direction: column;
+
+    &_phDetail{
+        display: block;
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        }
+
+}
+
+.textDetail{
+        display: flex;
+        flex-direction: column;
+        align-items: top;
+        padding-left: 1.6%;
+        margin-top: 13vh;
+        justify-content: space-evenly;
+        width: auto;
+        height: 80%;
+        border: 2px solid rgb(0, 0, 0);
+        border-radius: 10px;
+        font-size: 1.6rem;
+
+        h1{
+            font-size:1.75em;     
+        }
+        h3{
+            margin-top: 1.25em;
+            font-size: 1.2em;
+        }
+        p{
+            font-size: 1em;
+        }
+}
+
+.categoriasLink{
+    color: rgb(59, 59, 59);
+    text-decoration: none;
+}
+
+.productosSimilares{
+    display:flex;
+    height: 3vh;
+    width: 70%;
+    border: 2px solid rgb(61, 61, 61);
+    border-radius: 7px;
+    margin-top: .5vh;
+    margin-left: -1.5vh;
+    justify-content: center;
+    font-size: 1rem;
+
+    &_text{
+        color:black;
+}
+}
+
+.iralcarrito{
+    text-decoration: none;
+    display:flex;
+    justify-content: center;
+    color: black;
+    margin: 2vh 2vh 2vh -1.5vh;
+    border:2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+
+
+    &:hover{
+        color:rgb(48, 134, 55);
+        background-color: rgba(172, 172, 172, 0.582);
+        
+    }
+}
+@media (min-width: 750px) {
+    .wrapper{
+        display: flex;
+        gap:20px;
+        flex-flow: row wrap;
+        justify-content: center;
+        max-width: 1250px;
+        margin: 0 auto;
+    }
+    .ph{
+        max-width: unset;
+        width: 500px;
+            
+        &_lg{
+            .ph_text{
+                height: 200px;
+            }
+        }
+
+        &_img{
+            font-size: 1.5rem;
+        }
+
+    }
+}
+
+
+@media (min-width: 1780px) {
+    .wrapper{
+        max-width: 2000px;
+        gap:40px;
+    }
+
+    .ph{
+        &_sqr{
+            order:0;
+        }
+    }
+}

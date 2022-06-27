@@ -1,0 +1,115 @@
+.cartView{
+    display:flex;
+    flex-flow: column nowrap;
+    width: 82%;
+    height: 100vh;
+    margin-top: 7vh;
+    margin-bottom: 7vh;
+    margin-left:9%;
+
+    
+}
+.container{
+    display:flex;
+    flex-flow: column nowrap;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    width: 82%;
+    height: auto;
+
+        h2{
+            display:flex;
+            height: auto;
+            width: 100%;
+        }       
+}
+
+.precio{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 5vh;
+        
+        h3{
+            font-size: 1.2rem;
+        }
+
+        h4{
+            font-size: 1rem;
+        }
+
+}
+
+.buttonEliminar{
+    width: 4vh;
+    height: 3.5vh;
+    border-radius: 8px;
+
+    &:hover{
+        color:rgb(175, 55, 55);
+        background-color: rgba(202, 202, 202, 0.5);
+
+    }
+}
+
+.vaciarcarro{
+    display:flex;
+    justify-content: center;
+    font-size: 1.3rem;
+    width: 80%;
+    margin-left: 10%;
+    background-color: rgba(202, 202, 202, 0.5);
+    
+    &:hover{
+        color:rgb(175, 55, 55);
+        background-color: rgba(202, 202, 202, 0.5);
+
+    }
+}
+
+
+.checkout{
+    display:flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    width: 60%;
+    margin-top: 5vh;
+    margin-left: 20%;
+
+    &:hover{
+        color:rgb(48, 134, 55);
+    }
+}
+
+.SinItem{
+    display:flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-top: 8vh;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+
+    h4{
+        font-size: 2rem;
+    }
+}
+
+.retornotext{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color:black;
+    border:2px solid rgb(0, 0, 0);
+    margin-top: 1vh;
+    padding: 2px;
+    border-radius: 10px;
+
+    &:hover{
+        color:rgb(48, 134, 55);
+        background-color: rgba(105, 105, 105, 0.582);
+    }
+}

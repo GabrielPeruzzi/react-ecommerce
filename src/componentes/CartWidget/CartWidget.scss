@@ -1,0 +1,15 @@
+.cartwidget{
+    display:flex;
+    width: 120px;
+    height: 50px;
+    opacity: 70%;
+    color: white;
+    font-size: 0.7rem;
+    text-align: end;
+    align-items: flex-end;
+}
+
+.cartwidget:hover{
+    opacity: 90%;
+    color: orange;
+}

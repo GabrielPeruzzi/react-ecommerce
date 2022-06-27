@@ -1,0 +1,50 @@
+.contador{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 15px;
+    height: 200px;
+    width: auto;
+    margin: 4vh 2.5vh 2vh 0vh;
+}
+
+.contador-buttom{
+    display:flex;
+    height: 90px;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contador-buttom-icons{
+    display:flex;
+    height:40px;
+    width: 60px;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.7rem;
+    margin-right: 6px;
+    border-radius: 10%;
+    border: 2px solid rgba(0, 0, 0, 0);
+    background-color:rgba(120, 158, 180, 0.699);
+    color: rgb(78, 78, 78);
+}
+
+.contador-buttom-icons:hover{
+    border: 2px solid rgba(0, 0, 0, 0);
+    background-color:rgba(99, 106, 110, 0.699);
+    color: rgb(247, 247, 247);
+}
+
+.contador-buttom-agregar{
+    display: flex;
+    position: relative;
+    top:-22.5px;
+    width: 130px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
